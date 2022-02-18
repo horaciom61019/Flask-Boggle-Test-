@@ -1,0 +1,26 @@
+.board {
+    border: solid 1px black;
+    font-weight: bold;
+    font-size: 200%;
+    padding: 2%;
+    margin-bottom: 2%;
+}
+
+.board td {
+    margin: 6%;
+    text-align: center;
+}
+
+.msg {
+    padding: 3%;
+}
+
+.msg.ok {
+    color: white;
+    background-color: green;
+}
+  
+.msg.err {
+    color: white;
+    background-color: salmon;
+}
